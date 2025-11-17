@@ -48,7 +48,7 @@ export default function Page() {
 
       <div id="hero" data-section="hero">
         <HeroLogo
-          logoText="TemplateHub"
+          logoText="I will go today"
           description="Premium website templates for modern businesses, startups, and creative professionals"
           buttons={[
             { text: "Browse Templates", href: "products" },

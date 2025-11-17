@@ -76,31 +76,29 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "SaaSPro - Transform Your Business with AI-Powered Platform",
-  description: "Streamline operations, boost productivity, and scale your business with our comprehensive SaaS platform. Enterprise security, 99.9% uptime, 24/7 support.",
-  keywords: "SaaS platform, business automation, AI-powered software, enterprise security, workflow automation, team collaboration",
-  metadataBase: new URL("https://www.saaspro.com"),
+  title: "TemplateHub - Premium Website Templates for Modern Businesses",
+  description: "Professional website templates for businesses, portfolios, and e-commerce. Easy to customize, mobile responsive, with premium support included.",
+  keywords: "website templates, web design, business templates, portfolio templates, responsive design, professional websites",
+  metadataBase: new URL("https://www.templatehub.com"),
   alternates: {
-    canonical: "https://www.saaspro.com"
+    canonical: "https://www.templatehub.com"
   },
   openGraph: {
-    title: "SaaSPro - Transform Your Business with AI-Powered Platform",
-    description: "Streamline operations, boost productivity, and scale your business with our comprehensive SaaS platform designed for modern enterprises.",
-    url: "https://www.saaspro.com",
-    siteName: "SaaSPro",
-    images: [
-      {
-        url: "https://pixabay.com/get/g45e7f44ea964703b5ee9773091b3e77d98a0a5a42cdd8deea164f38bd1cce221a65a39aba8049f23642fc156a6792308dc05c5c3c4a1075a2bd8f677bd98d6c3_1280.jpg",
-        alt: "SaaS Platform Dashboard"
-      }
-    ],
+    title: "TemplateHub - Premium Website Templates for Modern Businesses",
+    description: "Professional website templates for businesses, portfolios, and e-commerce. Easy to customize, mobile responsive, with premium support included.",
+    url: "https://www.templatehub.com",
+    siteName: "TemplateHub",
+    images: [{
+      url: "https://pixabay.com/get/g52589c5be851082b31121e531b11ff14e905fb8cda5cedabfcca8ada9b558cc909c1c918862abc2b181195cb19a8f92a15265fc913b689a8574460bbe46fcc86_1280.jpg",
+      alt: "Web design workspace background"
+    }],
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "SaaSPro - Transform Your Business with AI-Powered Platform",
-    description: "Streamline operations, boost productivity, and scale your business with our comprehensive SaaS platform designed for modern enterprises.",
-    images: ["https://pixabay.com/get/g45e7f44ea964703b5ee9773091b3e77d98a0a5a42cdd8deea164f38bd1cce221a65a39aba8049f23642fc156a6792308dc05c5c3c4a1075a2bd8f677bd98d6c3_1280.jpg"]
+    title: "TemplateHub - Premium Website Templates for Modern Businesses",
+    description: "Professional website templates for businesses, portfolios, and e-commerce. Easy to customize, mobile responsive, with premium support included.",
+    images: ["https://pixabay.com/get/g52589c5be851082b31121e531b11ff14e905fb8cda5cedabfcca8ada9b558cc909c1c918862abc2b181195cb19a8f92a15265fc913b689a8574460bbe46fcc86_1280.jpg"]
   },
   robots: {
     index: true,

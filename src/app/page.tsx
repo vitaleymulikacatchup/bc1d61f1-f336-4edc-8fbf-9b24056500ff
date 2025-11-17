@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -174,6 +174,7 @@ export default function Page() {
           tag="Our Team"
           tagIcon={Users}
           textboxLayout="default"
+          gridVariant="uniform-all-items-equal"
           animationType="slide-up"
           members={[
             {
